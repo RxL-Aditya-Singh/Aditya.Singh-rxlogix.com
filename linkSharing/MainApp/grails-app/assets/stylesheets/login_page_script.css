@@ -1,0 +1,123 @@
+
+.header {
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 10px;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.search {
+    /* width: 25%; */
+    position: relative;
+    display: flex;
+    float: right;
+}
+  
+.searchTerm {
+    width: 60%;
+    border: 2px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    color: rgb(1, 14, 7);
+}
+
+
+.searchButton {
+    width: 40px;
+    height: 34px;
+    border: 2px solid black;
+    background-color: white;
+    border-left: none;
+    color: black;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.login {
+
+    border: solid black;
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    
+}
+.login input{
+
+    width: 75%;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.loginButton{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    float: right;
+    
+    
+}
+
+.headingLogin{
+
+    background-color: rgb(204, 235, 236);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid black;
+    margin: 0px 0px 0px 0px; 
+
+}
+
+.register{
+
+    margin-top: 20px;
+    border: solid black;
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;    
+}
+
+.registerButton{
+
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 30%;
+    float: right
+}
+
+.register input{
+
+    width: 80%;
+    border: 2px solid black;
+    margin: 5px; 
+}
+.main{
+    float :right;
+    width: 20%
+}
+
+.headingRegister{
+
+    background-color: rgb(202, 237, 238);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid black;
+    margin: 0px 0px 0px 0px;
+}
+
+.photo input{
+
+    width: 50%;
+}
